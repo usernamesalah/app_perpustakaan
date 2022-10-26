@@ -1,0 +1,200 @@
+/**
+ *
+ * You can write your CSS code here, DO NOT touch the default JavaScript file
+ * because it will make it harder for you to update.
+ * 
+ */
+
+/*# sourceMappingURL=custom.css.map */
+
+body {
+    background-color: #fff;
+}
+
+div.required .col-form-label:not(span):before, td.required:before {
+	content: '* ';
+	color: #F00;
+	font-weight: bold;
+}
+
+.legend {
+	text-align: left;
+	line-height: 18px;
+	color: #555;
+}
+
+.legend i {
+	width: 18px;
+	height: 18px;
+	padding-left: 4px;
+	float: left;
+	margin-right: 8px;
+	opacity: 0.7;
+}
+.info {
+	padding: 6px 8px;
+	font: 14px/16px Arial, Helvetica, sans-serif;
+	background: rgba(255,255,255,0.8);
+	box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+	border-radius: 5px;
+}
+.info p {
+	line-height: 20px;
+	margin-bottom: 0rem;
+}
+.bg-primary {
+	/* background-color: #7952b3 !important; */
+}
+.main-sidebar .sidebar-menu li a {
+    color: #555555;
+}
+.navbar .dropdown-menu.max-width {
+	width: auto;
+}
+.fixed-bottom {
+	position: fixed !important;
+}
+.navbar .nav-link.nav-link-user img {
+    width: 30px;
+    height: 30px;
+}
+.navbar {
+	left: 0px !important;
+}
+.main-navbar .nav-link:hover {
+	/* color: #fff; */
+	/* font-weight: 700; */
+	/* background-color : #5a6be8; */
+}
+@media (max-width: 1024px) {
+  .main-content {
+	  padding-left: 15px;
+	  padding-right: 15px;
+	  width: 100% !important;
+  }
+}
+.swal-icon {
+    width: 80px;
+    height: 80px;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 50%;
+    padding: 0;
+    position: relative;
+    box-sizing: content-box;
+    margin: 20px;
+	display: inline-block;
+	float: left;
+}
+.swal-title {
+    color: rgba(0,0,0,.65);
+    font-weight: 600;
+    text-transform: none;
+    position: relative;
+    display: block;
+    padding: 13px 16px;
+    font-size: 24px;
+    line-height: normal;
+    text-align: left;
+    margin-bottom: 0;
+    margin: 45px 0px;
+}
+.swal-text {
+    text-align: left;
+}
+.swal-footer {
+    text-align: right;
+}
+.bootstrap-timepicker-widget table td input {
+    width: 35px;
+}
+.section .section-header {
+    box-shadow: unset;
+    background-color: transparent;
+    /* border-radius: 3px;
+    border: none;
+    position: relative;
+    margin-bottom: 30px; */
+    padding: 10px 0px 0px 0px;
+    /* display: flex;
+    align-items: center; */
+}
+.bg-primary {
+    color:#fff;
+    background-color: #fb5530 !important;
+    background-image: linear-gradient(to right, #007bff , #28a745);
+    /* background-image: linear-gradient(to right, #3f51b5 , #9c27b0, #4caf50, #8bc34a); */
+}
+.bg-gradasi {
+    background-color: #9c27b0 !important;
+    /* background-image: linear-gradient(to right, #009688 , #4caf50, #8bc34a, #cddc39, #ffc107); */
+    background-image: linear-gradient(to right, #007bff , #28a745);
+}
+/* .btn-primary, .btn-primary.disabled {
+    box-shadow: 0 2px 6px #acb5f6;
+    background-color: #853cbd;
+    border-color: #bb2dd4;
+}
+.btn-danger, .btn-danger.disabled {
+    box-shadow: 0 2px 6px #fd9b96;
+    background-color: #e91e63;
+    border-color: #fc544b;
+    color: #fff;
+} */
+
+table.dataTable thead th, table.dataTable thead td {
+    border-bottom: 1px solid #ddd !important;
+    border-top: 1px solid #ddd !important;
+}
+.dataTable .buttons .btn {
+    margin: 0 8px 0px 0;
+}
+.input-group-append .btn {
+    padding: .5rem .8rem;
+}
+.card .card-header h4 {
+    /* color: #9c27b0; */
+}
+.swal-icon--success:before {
+    left: -24px;
+}
+.table-hover tr:hover td {
+    background-color: #6777ef;
+    border-color: #6777ef;
+    color: #fff;
+    cursor: pointer;
+}
+.form-control.is-invalid, .was-validated .form-control:invalid {
+    border-color: #dc3545!important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23dc3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23dc3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E")!important;
+}
+.invalid-feedback::first-letter {
+    text-transform: capitalize;
+}
+.card {
+    border-radius: 10px;
+}
+.card {
+    box-shadow: 0 0 10px rgb(229 229 229 / 80%);
+}
+.card {
+    border-radius: 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+.btn-outline-light, .btn-outline-light.disabled {
+    border-color: #e3eaef;
+    color: #6777ef;
+}
+thead.bg-primary th {
+    /* border-bottom: none;
+    background-color: rgba(0, 0, 0, 0.04); */
+    color: #fff!important;
+    /* padding-top: 15px;
+    padding-bottom: 15px; */
+}
+body.layout-3 .navbar.navbar-secondary .navbar-nav > .nav-item > .nav-link.has-dropdown:after {
+    top: 34%!important;
+    transform: rotate(90deg)!important;
+}

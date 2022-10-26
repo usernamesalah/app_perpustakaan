@@ -1,0 +1,69 @@
+
+    .backtab-vue-tab{
+      background: #76fffb;
+      width: 100%;
+      overflow-x: auto;
+      overflow-y: auto;
+    }
+    #toolbar-vue-tab{
+        width: 97.9%;
+        background-color: #79bbed;
+        font-weight: bold !important;
+        padding:10px;
+        height: 24px;
+    }
+    #vue_nue table{
+        border-collapse: separate;
+        border-spacing: 0;
+        padding:10px;
+    }
+    .vue-tab th{
+        padding: 10px 10px;
+        border-bottom: 1px solid #111;
+        font-weight: bold;
+        background: #18ffae;
+        text-align: center !important;
+        margin: 0;
+    }
+    .vue-tab td{
+        padding: 8px 10px;
+        margin: 0;
+    }
+    .vue-tab tr:nth-child(even) {background-color: #fff98a;}
+    .vue-tab tr:nth-child(odd) {background-color: #fdffc2;}
+    .vue-tab .mid{
+        text-align: center !important;
+    }
+    #search-row{
+        width:150px;
+    }
+    #filter-row{
+        float:right;
+    }
+
+    .upperLimit{
+        border: 1px solid #005dff;
+        background-color: #fff;
+        border-radius: 5px 5px 5px 5px;
+    }
+    .lowerLimit{
+        border: 1px solid #005dff;
+        background-color: #fff;
+        border-radius: 5px 5px 5px 5px;
+    }
+    .searchKey{
+        border: 1px solid #005dff;
+        background-color: #fff;
+        border-radius: 5px 5px 5px 5px;
+    }
+    .searchbox-button-vue{
+        width: 18px; height: 20px;
+        background: url('../../ico/search.png') no-repeat center center;
+        position: relative;
+        left: -25px;
+        overflow: hidden;
+        display: inline-block;
+        vertical-align: top;
+        cursor: pointer;
+        opacity: 0.6;
+    }
